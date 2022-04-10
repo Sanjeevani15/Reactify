@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Form = () => {
 
-
 const[contacts,setContacts]=useState(data);
 const { register} = useForm(); 
 
@@ -17,6 +16,7 @@ const[addFormData, setAddFormData]=useState({
     phoneNumber:"",
     email:""
 });
+
 
 const handleAddFormChange=(event)=>{
     event.preventDefault();
